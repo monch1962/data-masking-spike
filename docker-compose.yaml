@@ -5,13 +5,13 @@ services:
     volumes:
     - .:/fogger
     environment:
-      SOURCE_DATABASE_URL: mysql://S2WtNuzxEh:DbvpZr5PQ1@remotemysql.com:3306/source
+      SOURCE_DATABASE_URL: mysql://S2WtNuzxEh:DbvpZr5PQ1@remotemysql.com:3306/S2WtNuzxEh
       TARGET_DATABASE_URL: mysql://user:pass@localhost:3306/target
       REDIS_URL: redis://redis
   worker:
     image: tshio/fogger:latest
     environment:
-      SOURCE_DATABASE_URL: mysql://S2WtNuzxEh:DbvpZr5PQ1@remotemysql.com:3306/source
+      SOURCE_DATABASE_URL: mysql://S2WtNuzxEh:DbvpZr5PQ1@remotemysql.com:3306/S2WtNuzxEh
       TARGET_DATABASE_URL: mysql://user:pass@target:3306/target
       REDIS_URL: redis://redis
     restart: always
