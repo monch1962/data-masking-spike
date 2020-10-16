@@ -13,9 +13,9 @@ will create a new database `classicmodels`
 
 ## Sample database schema
 
-<object data="./MySQL-Sample-Database-Diagram-PDF-A4.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="./MySQL-Sample-Database-Diagram-PDF-A4.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
+<object data="https://github.com/monch1962/data-masking-spike/blob/main/MySQL-Sample-Database-Diagram-PDF-A4.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/monch1962/data-masking-spike/blob/main/MySQL-Sample-Database-Diagram-PDF-A4.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/monch1962/data-masking-spike/blob/main/MySQL-Sample-Database-Diagram-PDF-A4.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
